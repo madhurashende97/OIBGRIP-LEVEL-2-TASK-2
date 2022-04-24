@@ -1,0 +1,56 @@
+body {
+	background-color: rgb(220, 220, 220);
+	font-family: 'Crimson Text', serif;
+	margin: 20px auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.container-fluid {
+	margin: 10px auto;
+	padding: 10px 10px;
+	border: 3px solid lightgray;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.maxWidth {
+max-width: 800px;
+}
+.figure-caption {
+	font-family: 'Crimson Text', serif;
+	padding-top: 10px;
+	color: lightgrey;
+}
+#tribute {
+	text-align: justify;
+}
+h1 {
+	font-family: 'Crimson Text', serif;
+}
+h2, h3 {
+	font-family: 'Playfair Display', serif;
+}
+ul {
+  padding: 10px;
+  spacing: 10px;
+}
+li {
+  margin: 5px;
+  text-align: justify;
+}
+html {
+    font-size: 0.8rem;
+}
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 1rem;
+    }
+}
